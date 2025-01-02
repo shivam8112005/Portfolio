@@ -1,10 +1,10 @@
-
+import Hero from './componenets/Hero'
 function App() {
 
 
   return (
     <>
-      <h1>Hello world</h1>
+      <Hero/>
     </>
   )
 }
