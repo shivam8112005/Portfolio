@@ -47,7 +47,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
       <Rings />
 
       {/* Moving background colored circle balls */}
-      <MouseParallax strength={0.1} parallaxContainerRef={parallaxRef}>
+      <MouseParallax strength={0.2} parallaxContainerRef={parallaxRef}>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
           <div
             className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
@@ -63,10 +63,25 @@ export const BackgroundCircles = ({ parallaxRef }) => {
             }`}
           />
         </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[125deg]">
+          <div
+            className={`w-4 h-4 -ml-1.5 mt-52 bg-gradient-to-b from-[#682e88] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]">
           <div
             className={`hidden w-4 h-4 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[110deg]">
+          <div
+            className={`hidden w-5 h-5 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#6954b8] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -79,6 +94,13 @@ export const BackgroundCircles = ({ parallaxRef }) => {
             }`}
           />
         </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[82deg]">
+          <div
+            className={`w-3 h-3 -ml-1.5 mt-52 bg-gradient-to-b from-[#3e3ef4] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]">
           <div
@@ -87,10 +109,31 @@ export const BackgroundCircles = ({ parallaxRef }) => {
             }`}
           />
         </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[120deg]">
+          <div
+            className={`w-5 h-5 -ml-3 -mt-3 bg-gradient-to-b from-[#e75d4b] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[70deg]">
           <div
             className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[90deg]">
+          <div
+            className={`w-3 h-3 -ml-3 -mt-3 bg-gradient-to-b from-[#e75d4b] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[115deg]">
+          <div
+            className={`w-3 h-3 -ml-3 -mt-3 bg-gradient-to-b from-[#4bd7e7] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
