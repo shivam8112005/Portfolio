@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import codingGif from "../assets/coding_gif.gif"
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -47,9 +48,14 @@ const Hero = () => {
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p> */}
-          <Button href="/pricing" white>
+         <div className="flex justify-around max-w-xs mx-auto">
+         <Button href="/pricing" white>
             Get started
           </Button>
+          <Button className="hidden lg:flex" href="#login">
+            Resume
+          </Button>
+         </div>
         </div>
         <div className="relative max-w-[15rem] mx-auto md:max-w-2xl xl:mb-20">
           {/* <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -97,7 +103,8 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  // src={robot}
+                  src={codingGif}
                   className="w-full scale-[1.2] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={900}
                   height={400}
@@ -155,7 +162,7 @@ const Hero = () => {
 
   
        
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
      {/* </span> */}
      
