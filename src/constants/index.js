@@ -94,8 +94,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Personal Introduction",
+    text: "Hi, I'm Shivam Shukla, a second-year AI and Data Science student at LJ University, Ahmedabad. Committed to mastering the craft of coding, I focus on DSA, frontend development, and continuous growth while balancing academics with dedication.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -103,28 +103,30 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Dedication and Work Ethic",
+    text: "I am a relentless learner who never skips a day of coding. I focus on improving myself daily by building new skills and enhancing existing ones while maintaining a strong academic performance with a GPA of 8.5.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    title: "Technical Skills",
+    text: "I have hands-on experience with technologies like Java, Python, JavaScript, HTML, and CSS. Additionally, I am proficient in frameworks like React, Pandas, Bootstrap, and Tailwind CSS, enabling me to create robust and dynamic applications.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Goals and Aspirations",
+    text: "My ultimate goal is to secure a role at a top tech company. I am unwavering in my pursuit of this dream and will continue to push myself until I achieve it.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true
   },
+ 
 ];
 
 export const collabText =
