@@ -82,22 +82,24 @@ export const heroIcons = [
     imgSrc:linkedin, 
     link:"https://www.linkedin.com/in/shivamshukla8112005/",
   },
+  
    {
     id:"1",
     imgSrc:leetcode,
     link:"https://leetcode.com/u/shivam811/",
   }, 
   {
+    id:"3",
+    imgSrc:github,
+    link:"https://github.com/shivam8112005",
+   },
+  {
     id:"2",
     imgSrc:codeforces,
     link:"https://codeforces.com/profile/shivam811",
 
    },
-   {
-    id:"3",
-    imgSrc:github,
-    link:"https://github.com/shivam8112005",
-   }
+   
    
   ];
 
