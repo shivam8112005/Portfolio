@@ -36,6 +36,11 @@ import {
   yourlogo,
 } from "../assets";
 
+import linkedin from '../assets/linkedin.png'
+import leetcode from '../assets/leetcode.webp'
+import github from '../assets/github.png'
+import codeforces from '../assets/codeforces.webp'
+
 export const navigation = [
   {
     id: "0",
@@ -71,7 +76,30 @@ export const navigation = [
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [
+  {
+    id:"0",
+    imgSrc:linkedin, 
+    link:"https://www.linkedin.com/in/shivamshukla8112005/",
+  },
+   {
+    id:"1",
+    imgSrc:leetcode,
+    link:"https://leetcode.com/u/shivam811/",
+  }, 
+  {
+    id:"2",
+    imgSrc:codeforces,
+    link:"https://codeforces.com/profile/shivam811",
+
+   },
+   {
+    id:"3",
+    imgSrc:github,
+    link:"https://github.com/shivam8112005",
+   }
+   
+  ];
 
 export const notificationImages = [notification4, notification3, notification2];
 
