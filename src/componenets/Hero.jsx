@@ -31,10 +31,9 @@ const Hero = () => {
 
 
     <div style={{height:"30rem", width:"30rem"}} className="relative z-1 max-w-[50rem] text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h2 mb-6">
-          Coding Simplicity into Complex Problems - &nbsp;
+    <h2 className="h3 mb-6 center-text">  
             <span className="inline-block relative">
-              Shivam{" "}
+              Shivam Shukla{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -43,7 +42,11 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-          </h1>
+            </h2>
+          <h2 className="h3 mb-6">
+          Coding Simplicity into Complex Problems&nbsp;
+          
+          </h2>
           {/* <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
@@ -57,7 +60,7 @@ const Hero = () => {
           </Button>
          </div>
         </div>
-        <div className="relative max-w-[15rem] mx-auto md:max-w-2xl xl:mb-20">
+        <div className="relative mx-auto max-w-[15rem] md:max-w-2xl xl:mb-20">
           {/* <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1rem] bg-n-10 rounded-t-[0.5rem]" />

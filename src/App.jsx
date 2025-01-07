@@ -7,6 +7,7 @@ import Hero from "./componenets/Hero";
 import Pricing from "./componenets/Pricing";
 import Roadmap from "./componenets/Roadmap";
 import Services from "./componenets/Services";
+import Experience from "./componenets/Experience";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Header />
         <Hero />
         <Roadmap />
+        <Experience/>
         <Benefits />
         <Collaboration />
         <Services />

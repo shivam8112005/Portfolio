@@ -1,0 +1,66 @@
+import React from "react";
+import { grid } from "../assets"; // Replace with your grid image path
+import Section from "./Section";
+import Heading from "./Heading";
+import { experiences } from "../constants";
+import { ScrollParallax } from "react-just-parallax";
+import experienceGif from "../assets/experience_gif.gif" 
+
+const Experience = () => (
+  <Section className="overflow-hidden py-40 bg-cover bg-center" id="roadmap" style={{ backgroundImage: `url(${grid})` }}>
+     {/* <div className="absolute">
+        <img
+          className="w-full h-full object-cover rounded-lg shadow-lg z-0"
+          src={grid} // Replace with your image
+          alt="Experience Visual"
+        />
+      </div> */}
+        <Heading tag="About Me" title="Experience" />
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 z-1">
+      {/* Left Image Section */}
+      <div className="relative">
+        <img
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+          src={experienceGif} // Replace with your image
+          alt="Experience Visual"
+        />
+      </div>
+
+      {/* Right Experience Section */}
+      <div className="flex flex-col justify-between">
+    
+
+        {experiences.map((item) => (
+          <ScrollParallax key={item.id} strength={0.08}>
+            <div
+                className={`my-7 md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+                  item.colorful ? "bg-conic-gradient" : "bg-n-6"
+                }`}
+                key={item.id}
+              >
+                <div className="relative p-2 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-8">
+                  <div className="absolute top-0 left-0 max-w-full">
+                    <img
+                      className=""
+                      src={grid}
+                      width={550}
+                      height={550}
+                      alt="Grid"
+                    />
+                  </div>
+                  <div className="relative z-1">
+                   
+                    <h4 className="h5 mb-4">{item.title}</h4>
+                    <p className="body-2 text-n-3">{item.text}</p>
+                  </div>
+                </div>
+              </div>
+          </ScrollParallax>
+        ))}
+      </div>
+    </div>
+  </Section>
+);
+
+export default Experience;
+

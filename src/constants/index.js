@@ -159,6 +159,40 @@ export const roadmap = [
  
 ];
 
+
+
+
+
+
+
+export const experiences = [
+  {
+    id: "0",
+    title: "Hacktoberfest 2024",
+    text: "Contributed to multiple repositories, resolted high-quality PRs, focusing on cled global developers, enhancing team collaboration skills.",
+    date: "October 2024",
+    status: "done",
+    imageUrl: "path_to_hacktoberfest_image", // Replace with the actual image path or URL
+    tags: ["Open Source", "JavaScript", "React", "Git"],
+    link: "https://hacktoberfest.com/",
+  },
+  {
+    id: "1",
+    title: "GirlScript Summer of Code 2024",
+    text: "Contributed to the Creative Commons GSoC project, ices. Actively mentored newcomers in open source, helping them submit their first pull requests.",
+    date: "March 2024 – June 2024",
+    status: "done",
+    imageUrl: "path_to_gssoc_image", // Replace with the actual image path or URL
+    tags: ["Open Source", "Python", "Django", "GitHub"],
+    link: "https://gssoc.girlscript.tech/",
+  },
+];
+
+
+
+
+
+
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
