@@ -6,6 +6,7 @@ import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 import ClipPath from "../assets/svg/ClipPath";
+import { BackgroundCircles, BottomLine } from "./design/Hero";
 // import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Roadmap = () => (
@@ -43,13 +44,15 @@ const Roadmap = () => (
             </div>
           );
         })}
-        <ClipPath />
+        {/* <ClipPath /> */}
         <Gradient />
       </div>
+              {/* <BottomLine /> */}
 
      
     </div>
-      {/* <BottomLine /> */}
+            
+    
   </Section>
 );
 

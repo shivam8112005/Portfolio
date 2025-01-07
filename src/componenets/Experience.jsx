@@ -5,9 +5,13 @@ import Heading from "./Heading";
 import { experiences } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import experienceGif from "../assets/experience_gif.gif" 
+import { BackgroundCircles, BottomLine } from "./design/Hero";
+import { Gradient } from "./design/Roadmap";
 
 const Experience = () => (
-  <Section className="overflow-hidden py-40 bg-cover bg-center" id="roadmap" style={{ backgroundImage: `url(${grid})` }}>
+  <div className="overflow-hidden mb-15" id="experience">
+    <BottomLine />
+
      {/* <div className="absolute">
         <img
           className="w-full h-full object-cover rounded-lg shadow-lg z-0"
@@ -15,8 +19,8 @@ const Experience = () => (
           alt="Experience Visual"
         />
       </div> */}
-        <Heading tag="About Me" title="Experience" />
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 z-1">
+        <Heading tag="" title="Experience" />
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
       {/* Left Image Section */}
       <div className="relative">
         <img
@@ -53,13 +57,16 @@ const Experience = () => (
                     <h4 className="h5 mb-4">{item.title}</h4>
                     <p className="body-2 text-n-3">{item.text}</p>
                   </div>
+              <Gradient />
                 </div>
               </div>
           </ScrollParallax>
         ))}
       </div>
+
+      
     </div>
-  </Section>
+  </div>
 );
 
 export default Experience;
