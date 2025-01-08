@@ -89,9 +89,14 @@ const Experience = () => (
           alt=""
           className={`rounded mx-${item.margin} my-${item.margin}`}
         />
-        <Button className="hidden lg:flex" href={item.link} target="_blank">
-        Wins
+       
+          <a href={item.link}  target="_blank">
+          <Button className="hidden lg:flex" >
+          Wins
           </Button>
+
+          </a>
+       
 
        </div>
         <div className="absolute top-0 left-0 max-w-full">
