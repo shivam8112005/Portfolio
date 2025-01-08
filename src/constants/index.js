@@ -40,6 +40,8 @@ import linkedin from '../assets/linkedin.png'
 import leetcode from '../assets/leetcode.webp'
 import github from '../assets/github.png'
 import codeforces from '../assets/codeforces.webp'
+import gssoc from '../assets/gssoc_logo.png'
+import hacktoberfest from '../assets/hacktoberfest_logo.jpg'
 
 export const navigation = [
   {
@@ -169,22 +171,29 @@ export const experiences = [
   {
     id: "0",
     title: "Hacktoberfest 2024",
-    text: "Contributed to multiple repositories, resolted high-quality PRs, focusing on cled global developers, enhancing team collaboration skills.",
+    text: "Contributed 16 PRs during Hacktoberfest, earning the Level 4 badge. Collaborated globally on projects, including Creative Commons, using JS, React, Bootstrap, HTML, and CSS, enhancing teamwork and coding skills.",
     date: "October 2024",
     status: "done",
-    imageUrl: "path_to_hacktoberfest_image", // Replace with the actual image path or URL
+    imageUrl: hacktoberfest, // Replace with the actual image path or URL
     tags: ["Open Source", "JavaScript", "React", "Git"],
-    link: "https://hacktoberfest.com/",
+    link: "https://www.holopin.io/hacktoberfest2024/userbadge/cm2mry6j332710clcb36ft6et",
+    height:45,
+    width:45,
+    margin:2,
   },
   {
     id: "1",
-    title: "GirlScript Summer of Code 2024",
-    text: "Contributed to the Creative Commons GSoC project, ices. Actively mentored newcomers in open source, helping them submit their first pull requests.",
-    date: "March 2024 – June 2024",
+    title: "GirlScript Summer of Code Extd 2024",
+    text: "Contributed 31 PRs during GSSoC, earning 1050 points. Worked with JS, React, Bootstrap, HTML, and CSS, gaining open-source experience and collaboration skills.",
+    date: "October 2024 – November 2024",
     status: "done",
-    imageUrl: "path_to_gssoc_image", // Replace with the actual image path or URL
+    imageUrl: gssoc, // Replace with the actual image path or URL
     tags: ["Open Source", "Python", "Django", "GitHub"],
-    link: "https://gssoc.girlscript.tech/",
+    link: "https://drive.google.com/file/d/1-5kjthnzlzUFLK_CKuX7QWNK8WkXdjmB/view?usp=drive_link",
+    height:60,
+    width:60,
+    margin:0,
+
   },
 ];
 
