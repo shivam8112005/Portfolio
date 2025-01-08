@@ -82,20 +82,25 @@ const Experience = () => (
       <div className="relative p-2 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-4">
        <div className="w-full flex justify-between">
 
-       <img
+     
+      <img
           src={item.imageUrl}
           width={item.width}
           height={item.height}
           alt=""
           className={`rounded mx-${item.margin} my-${item.margin}`}
         />
+   
        
-          <a href={item.link}  target="_blank">
+      
+       <a href={item.link}  target="_blank">
           <Button className="hidden lg:flex" >
           Wins
           </Button>
 
           </a>
+      
+       
        
 
        </div>
@@ -109,7 +114,7 @@ const Experience = () => (
         </div>
         <div className="relative z-1">
           {/* Date Section */}
-          <p className="text-sm text-gray-500 mb-2">{item.date}</p>
+          <p className={`text-sm text-gray-500 mt-${item.margin}`}>{item.date}</p>
           
           {/* Title */}
           <h4 className="h5 mb-4">{item.title}</h4>

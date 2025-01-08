@@ -179,7 +179,7 @@ export const experiences = [
     link: "https://www.holopin.io/hacktoberfest2024/userbadge/cm2mry6j332710clcb36ft6et",
     height:45,
     width:45,
-    margin:2,
+    margin:4,
   },
   {
     id: "1",
