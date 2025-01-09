@@ -83,7 +83,7 @@ const Experience = () => (
 
 
 {experiences.map((item) => (
-  <ScrollParallax key={item.id} strength={0.09}>
+  <ScrollParallax key={item.id} strength={0.12}>
     <div
       className={`my-7 md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
         item.colorful ? "bg-conic-gradient" : "bg-n-6"
