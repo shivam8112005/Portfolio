@@ -8,6 +8,7 @@ import Pricing from "./componenets/Pricing";
 import Roadmap from "./componenets/Roadmap";
 import Services from "./componenets/Services";
 import Experience from "./componenets/Experience";
+import Skills from "./componenets/Skills";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Hero />
         <Roadmap />
         <Experience/>
+        <Skills/>
         <Benefits />
         <Collaboration />
         <Services />

@@ -8,8 +8,19 @@ import experienceGif from "../assets/experience_gif.gif"
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { Gradient } from "./design/Roadmap";
 import Button from "./Button";
+// import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Experience = () => (
+  
+  <Section
+  className="pt-[12rem] -mt-[5.25rem]"
+  crosses
+  crossesOffset="lg:translate-y-[5.25rem]"
+  customPaddings
+  id="exp"
+>
+
+
   <div className="overflow-hidden mb-15" id="experience">
  
 
@@ -135,6 +146,8 @@ const Experience = () => (
       
     </div>
   </div>
+ 
+  </Section>
 );
 
 export default Experience;
