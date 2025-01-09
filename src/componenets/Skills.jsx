@@ -10,6 +10,9 @@ import css_logo from '../assets/css-logo.png'
 import bs_logo from '../assets/bs_1.png'
 import tc_logo from '../assets/tc_1.png'
 import mysql_logo from '../assets/Mysql_logo.png'
+import git_logo from '../assets/git_logo.png'
+import github from '../assets/github_logo.png'
+import vercel from '../assets/vercel_1.jpg'
 import Section from "./Section";
 import Heading from "./Heading";
 const skills = [
@@ -22,6 +25,9 @@ const skills = [
   { name: "CSS", icon: css_logo },
   { name: "Tailwind CSS", icon: tc_logo },
   { name: "Bootstrap", icon: bs_logo },
+  { name: "Git", icon: git_logo },
+  { name: "GitHub", icon: github },
+  { name: "Vercel", icon: vercel },
 ];
 
 const responsive = {
