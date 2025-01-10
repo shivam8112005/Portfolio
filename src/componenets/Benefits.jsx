@@ -12,7 +12,7 @@ const Benefits = () => {
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="exp"
+      id="projects"
     >
       <div className="container relative z-2">
         <Heading
@@ -50,7 +50,7 @@ const Benefits = () => {
                 <div className="flex items-center mt-auto">
                  
                
-                <a href="" className="flex items-center mt-auto">
+                <a href={item.link} target="_blank" className="flex items-center mt-auto">
                 <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>

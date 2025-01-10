@@ -10,7 +10,7 @@ import { BackgroundCircles, BottomLine } from "./design/Hero";
 // import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden" id="about">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="About Me" />
 

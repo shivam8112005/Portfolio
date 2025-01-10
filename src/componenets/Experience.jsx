@@ -17,7 +17,7 @@ const Experience = () => (
   crosses
   crossesOffset="lg:translate-y-[5.25rem]"
   customPaddings
-  id="exp"
+  id="experience"
 >
 
 

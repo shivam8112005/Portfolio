@@ -19,7 +19,7 @@ const Hero = () => {
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="hero"
+      id="home"
     >
      {/* <span> */}
      <div className="container relative" ref={parallaxRef}>
@@ -52,10 +52,10 @@ const Hero = () => {
             with Brainwave, the open AI chat app.
           </p> */}
          <div className="flex justify-around max-w-xs mx-auto">
-         <Button href="/pricing" white>
+         <Button href="#about" white>
             Get started
           </Button>
-          <Button className="hidden lg:flex" href="#login">
+          <Button className="hidden lg:flex" href="https://drive.google.com/file/d/1YmBZaZc8QgiK6Ii5_zHEuSGYNPt9jwJy/view?usp=drive_link">
             Resume
           </Button>
          </div>

@@ -58,7 +58,7 @@ const Skills = () => {
     crosses
     crossesOffset="lg:translate-y-[5.25rem]"
     customPaddings
-    id="exp"
+    id="skills"
   >
 
 <div className="skills-carousel">

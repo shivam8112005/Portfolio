@@ -46,36 +46,31 @@ import hacktoberfest from '../assets/hacktoberfest_logo.jpg'
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#home",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About",
+    url: "#about",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Experience",
+    url: "#experience",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Skills",
+    url: "#skills",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Projects",
+    url: "#projects",
+
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const heroIcons = [
@@ -325,10 +320,20 @@ export const benefits = [
     iconUrl: "./src/assets/icons/career-icon.svg",
     imageUrl: gssoc,
     skills: ["Java", "MySQL", "OOP", "DBMS", "DS"],
-    link: "https://yourportfolio.com/career-analysis",
+    link: "https://github.com/shivam8112005/java_career_analysis_system",
   },
   {
     id: "1",
+    title: "Folder Cleaner",
+    text: "A Python-based tool designed to efficiently organize and manage files within a folder by sorting them into categorized directories.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: "./src/assets/icons/folder-icon.svg",
+    imageUrl: "./src/assets/images/folder-cleaner.jpg",
+    skills: ["Python","OS","Shutil", "File Management"],
+    link: "https://github.com/shivam8112005/Folder-Cleaner",
+  },
+  {
+    id: "2",
     title: "Ticket Booking System",
     text: "A Ticket Booking System with SHA-256 encryption, Multithreading for fetching data, ticket downloads,  and admin management.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
@@ -336,18 +341,9 @@ export const benefits = [
     imageUrl: "./src/assets/images/ticket-booking.jpg",
     skills: ["Java", "MySQL", "OOP", "DBMS", "DS"],
     light: true,
-    link: "https://yourportfolio.com/ticket-booking",
+    link: "https://github.com/shivam8112005/Ticket_Booking_Sytsem",
   },
-  {
-    id: "2",
-    title: "Folder Cleaner",
-    text: "A Python-based tool designed to efficiently organize and manage files within a folder by sorting them into categorized directories.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: "./src/assets/icons/folder-icon.svg",
-    imageUrl: "./src/assets/images/folder-cleaner.jpg",
-    skills: ["Python","OS","Shutil", "File Management"],
-    link: "https://yourportfolio.com/folder-cleaner",
-  },
+ 
   {
     id: "3",
     title: "GlobeGaze",
@@ -357,7 +353,7 @@ export const benefits = [
     imageUrl: "./src/assets/images/globegaze.jpg",
     skills: ["React", "React Router", "Bootstrap"],
     light: true,
-    link: "https://yourportfolio.com/globegaze",
+    link: "https://github.com/shivam8112005/GlobeGaze",
   },
   {
     id: "4",
@@ -367,7 +363,7 @@ export const benefits = [
     iconUrl: "./src/assets/icons/currency-icon.svg",
     imageUrl: "./src/assets/images/cashswitch.jpg",
     skills: ["React", "Tailwind CSS"],
-    link: "https://yourportfolio.com/cashswitch",
+    link: "https://github.com/shivam8112005/CashSwitch",
   },
   {
     id: "5",
@@ -377,7 +373,7 @@ export const benefits = [
     iconUrl: "./src/assets/icons/jobsearch-icon.svg",
     imageUrl: "./src/assets/images/job-search.jpg",
     skills: ["Java", "OOP"],
-    link: "https://yourportfolio.com/job-search",
+    link: "https://github.com/shivam8112005/JAVA_job_search_portal",
   },
 ];
 
