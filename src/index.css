@@ -86,3 +86,30 @@
 .-rotate-360 {
   @apply rotate-[-360deg]
 }
+
+
+
+
+
+/* Scrollbar Styles */
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 10px; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    /* background-color: #15295b;*/
+    background-color: #450772; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #15295b; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #03192e; 
+  }
+}
