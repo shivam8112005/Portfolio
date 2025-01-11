@@ -62,7 +62,7 @@ const Benefits = () => {
 
               {item.light && <GradientLight />}
 
-              <div
+              {/* <div
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
@@ -77,7 +77,7 @@ const Benefits = () => {
                     />
                   )}
                 </div>
-              </div>
+              </div> */}
 
               <ClipPath />
             </div>

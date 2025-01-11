@@ -1,3 +1,11 @@
+// Import the images at the top of your file
+import card1Image from "../assets/benefits/card-1.png";
+import card2Image from "../assets/benefits/card-2.png";
+import card3Image from "../assets/benefits/card-3.png";
+import card4Image from "../assets/benefits/card-4.png";
+import card5Image from "../assets/benefits/card-5.png";
+import card6Image from "../assets/benefits/card-6.png";
+
 import {
   benefitIcon1,
   benefitIcon2,
@@ -42,6 +50,8 @@ import github from '../assets/github.png'
 import codeforces from '../assets/codeforces.webp'
 import gssoc from '../assets/gssoc_logo.png'
 import hacktoberfest from '../assets/hacktoberfest_logo.jpg'
+// import card1Image from '../assets/benefits/card-1.svg';
+// console.log(card1Image);
 
 export const navigation = [
   {
@@ -316,7 +326,7 @@ export const benefits = [
     id: "0",
     title: "Career Analysis System",
     text: "A platform for jobseekers and recruiters to manage profiles, search jobs, Building Resumes and get career recommendations.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: card1Image,
     iconUrl: "./src/assets/icons/career-icon.svg",
     imageUrl: gssoc,
     skills: ["Java", "MySQL", "OOP", "DBMS", "DS"],
@@ -326,7 +336,7 @@ export const benefits = [
     id: "1",
     title: "Folder Cleaner",
     text: "A Python-based tool designed to efficiently organize and manage files within a folder by sorting them into categorized directories.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: card3Image,
     iconUrl: "./src/assets/icons/folder-icon.svg",
     imageUrl: "./src/assets/images/folder-cleaner.jpg",
     skills: ["Python","OS","Shutil", "File Management"],
@@ -336,7 +346,7 @@ export const benefits = [
     id: "2",
     title: "Ticket Booking System",
     text: "A Ticket Booking System with SHA-256 encryption, Multithreading for fetching data, ticket downloads,  and admin management.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: card2Image,
     iconUrl: "./src/assets/icons/ticket-icon.svg",
     imageUrl: "./src/assets/images/ticket-booking.jpg",
     skills: ["Java", "MySQL", "OOP", "DBMS", "DS"],
@@ -348,7 +358,7 @@ export const benefits = [
     id: "3",
     title: "GlobeGaze",
     text: "A React-based platform for news across Entertainment, Sports, Technology, Health, Business, Education, and World, using React Router and Bootstrap.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: card4Image,
     iconUrl: "./src/assets/icons/news-icon.svg",
     imageUrl: "./src/assets/images/globegaze.jpg",
     skills: ["React", "React Router", "Bootstrap"],
@@ -359,7 +369,7 @@ export const benefits = [
     id: "4",
     title: "CashSwitch",
     text: "A React app to fetch real-time currency exchange rates, styled with Tailwind CSS, using useState and useEffect hooks, with seamless API integration for live data updates",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: card5Image,
     iconUrl: "./src/assets/icons/currency-icon.svg",
     imageUrl: "./src/assets/images/cashswitch.jpg",
     skills: ["React", "Tailwind CSS"],
@@ -369,7 +379,7 @@ export const benefits = [
     id: "5",
     title: "Job Search Portal",
     text: "A Java-based job portal where recruiters post jobs, and jobseekers search, utilizing OOP principles like inheritance, abstraction, and recursion.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: card6Image,
     iconUrl: "./src/assets/icons/jobsearch-icon.svg",
     imageUrl: "./src/assets/images/job-search.jpg",
     skills: ["Java", "OOP"],
