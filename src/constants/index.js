@@ -79,7 +79,11 @@ export const navigation = [
     title: "Projects",
     url: "#projects",
 
-  },
+  },{
+    id:"5",
+    title: "Contact",
+    url: "#contact",
+  }
   
 ];
 

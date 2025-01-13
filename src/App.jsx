@@ -9,6 +9,7 @@ import Roadmap from "./componenets/Roadmap";
 import Services from "./componenets/Services";
 import Experience from "./componenets/Experience";
 import Skills from "./componenets/Skills";
+import ContactMe from "./componenets/ContactMe";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Experience/>
         <Skills/>
         <Benefits />
+        <ContactMe/>
         {/* <Collaboration /> */}
         {/* <Services /> */}
         {/* <Pricing /> */}
