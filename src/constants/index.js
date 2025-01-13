@@ -42,6 +42,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  linkedinblack,
 } from "../assets";
 
 import linkedin from '../assets/linkedin.png'
@@ -393,34 +394,34 @@ export const benefits = [
 
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
+ 
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/in/shivamshukla8112005/",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "Leetcode",
+    iconUrl: leetcode,
+    url: "https://leetcode.com/u/shivam811/",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    title: "Github",
+    iconUrl: github,
+    url: "https://github.com/shivam8112005",
   },
   {
     id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Codeforces",
+    iconUrl: codeforces,
+    url: "https://codeforces.com/profile/shivam811",
   },
 ];
+
+
+
+
+

@@ -74,7 +74,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
+import linkedinblack from "./socials/linkedinBlack.webp";
 export {
   brainwave,
   check,
@@ -140,6 +140,7 @@ export {
   benefitIcon4,
   benefitImage2,
   discordBlack,
+  linkedinblack,
   facebook,
   instagram,
   telegram,
