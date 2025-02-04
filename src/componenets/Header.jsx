@@ -153,7 +153,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <Link to="/" className="block w-[12rem] xl:mr-8">
-          <img src={logo} width={80} className="rounded-xl" height={10} alt="Brainwave" />
+          <img src={logo} width={80} className="rounded-xl" height={10} alt="Shivam" />
         </Link>
 
         <nav
