@@ -76,12 +76,7 @@ export const navigation = [
     id1: "experience",
     path:"/experience"
   },
-  {
-    id: "3",
-    title: "Skills",
-    url: "#skills",
-    id1: "skills",
-  },
+  
   {
     id: "4",
     title: "Projects",

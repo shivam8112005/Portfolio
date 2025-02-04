@@ -148,8 +148,9 @@ const Experience = () => (
     </div>
   </div>
  
+  {/* </Skills> */}
+  <Skills/>
   </Section>
-  </Skills>
 );
 
 export default Experience;
