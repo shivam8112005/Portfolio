@@ -59,31 +59,42 @@ export const navigation = [
     id: "0",
     title: "Home",
     url: "#home",
+    id1: "home",
+    path:"/"
   },
   {
     id: "1",
     title: "About",
     url: "#about",
+    id1: "about",
+    path:"/aboutme"
   },
   {
     id: "2",
     title: "Experience",
     url: "#experience",
+    id1: "experience",
+    path:"/experience"
   },
   {
     id: "3",
     title: "Skills",
     url: "#skills",
+    id1: "skills",
   },
   {
     id: "4",
     title: "Projects",
     url: "#projects",
+    id1: "projects",
+    path:"/projects"
 
   },{
     id:"5",
     title: "Contact",
     url: "#contact",
+    id1: "contact",
+    path:"/contact"
   }
   
 ];

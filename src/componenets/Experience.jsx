@@ -8,6 +8,7 @@ import experienceGif from "../assets/experience_gif.gif"
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { Gradient } from "./design/Roadmap";
 import Button from "./Button";
+import Skills from "./Skills";
 // import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Experience = () => (
@@ -148,6 +149,7 @@ const Experience = () => (
   </div>
  
   </Section>
+  </Skills>
 );
 
 export default Experience;

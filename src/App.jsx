@@ -10,21 +10,29 @@ import Services from "./componenets/Services";
 import Experience from "./componenets/Experience";
 import Skills from "./componenets/Skills";
 import ContactMe from "./componenets/ContactMe";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <Hero />
-        <Roadmap />
+      <Header />
+        <Routes>
+          <Route path="/" element={<Hero />}/>
+          <Route path="/aboutme" element={<Roadmap />}/>
+          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/projects" element={<Benefits />}/>
+          <Route path="/contact" element={<ContactMe/>}/>
+          
+        
+        {/* <Hero />
+        
         <Experience/>
         <Skills/>
-        <Benefits />
-        <ContactMe/>
-        {/* <Collaboration /> */}
-        {/* <Services /> */}
-        {/* <Pricing /> */}
+         */}
+        
+      
+        </Routes>
         <Footer />
       </div>
 
