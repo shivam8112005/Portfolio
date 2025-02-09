@@ -285,7 +285,7 @@
 
 
 
-
+import { Link } from "react-router-dom";
 import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
@@ -335,7 +335,10 @@ const Hero = () => {
             </h2>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button href="#about" white>
+                <Link to="/aboutme">
                 Get started
+                </Link>
+                
               </Button>
               <Button href="https://drive.google.com/file/d/1YmBZaZc8QgiK6Ii5_zHEuSGYNPt9jwJy/view?usp=drive_link">
                 Resume
