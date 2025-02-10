@@ -339,7 +339,7 @@ const Hero = () => {
               Get started
             </Button>
           </Link>
-              <Button href="https://drive.google.com/file/d/1YmBZaZc8QgiK6Ii5_zHEuSGYNPt9jwJy/view?usp=drive_link">
+              <Button href="https://drive.google.com/file/d/1F_5B8uWZbFuMdnc7NuttIPsaMcbDuhN1/view?usp=drive_link">
                 Resume
               </Button>
             </div>
