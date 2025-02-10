@@ -334,12 +334,11 @@ const Hero = () => {
               Coding Simplicity into Complex Problems&nbsp;
             </h2>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button href="#about" white>
-                <Link to="/aboutme">
-                Get started
-                </Link>
-                
-              </Button>
+            <Link to="/aboutme">
+            <Button white>
+              Get started
+            </Button>
+          </Link>
               <Button href="https://drive.google.com/file/d/1YmBZaZc8QgiK6Ii5_zHEuSGYNPt9jwJy/view?usp=drive_link">
                 Resume
               </Button>
