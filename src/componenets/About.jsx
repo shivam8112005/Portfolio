@@ -1,13 +1,9 @@
-import Button from "./Button";
+
 import Heading from "./Heading";
 import Section from "./Section";
-import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets";
+import { grid } from "../assets";
 import { Gradient } from "./design/Roadmap";
-import ClipPath from "../assets/svg/ClipPath";
-import { BackgroundCircles, BottomLine } from "./design/Hero";
-// import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="about">

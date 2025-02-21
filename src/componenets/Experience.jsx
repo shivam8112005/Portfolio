@@ -5,7 +5,6 @@ import Heading from "./Heading";
 import { experiences } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import experienceGif from "../assets/experience_gif.gif" 
-import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { Gradient } from "./design/Roadmap";
 import Button from "./Button";
 import Skills from "./Skills";

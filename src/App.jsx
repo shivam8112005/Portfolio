@@ -1,14 +1,10 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Benefits from "./componenets/Benefits";
-import Collaboration from "./componenets/Collaboration";
+import Projects from "./componenets/Projects";
 import Footer from "./componenets/Footer";
 import Header from "./componenets/Header";
 import Hero from "./componenets/Hero";
-import Pricing from "./componenets/Pricing";
-import Roadmap from "./componenets/Roadmap";
-import Services from "./componenets/Services";
+import About from "./componenets/About";
 import Experience from "./componenets/Experience";
-import Skills from "./componenets/Skills";
 import ContactMe from "./componenets/ContactMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -19,9 +15,9 @@ const App = () => {
       <Header />
         <Routes>
           <Route path="/" element={<Hero />}/>
-          <Route path="/aboutme" element={<Roadmap />}/>
+          <Route path="/aboutme" element={<About />}/>
           <Route path="/experience" element={<Experience/>}/>
-          <Route path="/projects" element={<Benefits />}/>
+          <Route path="/projects" element={<Projects />}/>
           <Route path="/contact" element={<ContactMe/>}/>
           
         
