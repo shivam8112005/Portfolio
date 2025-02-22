@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="relative z-1 max-w-full lg:max-w-[50%] text-center lg:text-left mb-12 lg:mb-0">
             <h2 className="h3 mb-4 lg:mb-6">  
-              <span className="inline-block relative">
+              {/* <span className="inline-block relative">
                 Shivam Shukla{" "}
                 <img
                   src={curve || "/placeholder.svg"}
@@ -29,7 +29,16 @@ const Hero = () => {
                   height={28}
                   alt="Curve"
                 />
+              </span> */}
+
+
+
+              <span className="highlight-text inline-block relative">
+                  Shivam Shukla
               </span>
+
+
+
             </h2>
             <h2 className="h3 mb-6">
               Coding Simplicity into Complex Problems&nbsp;
@@ -74,7 +83,7 @@ const Hero = () => {
               </div>
               <Gradient />
             </div>
-            <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+            {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
               <img
                 src={heroBackground || "/placeholder.svg"}
                 className="w-full"
@@ -82,7 +91,7 @@ const Hero = () => {
                 height={1800}
                 alt="hero"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       <BackgroundCircles />

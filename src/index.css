@@ -113,3 +113,103 @@
     background-color: #03192e; 
   }
 }
+
+
+
+
+
+
+
+/* @keyframes highlight {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  padding: 2px 5px;
+}
+
+.highlight-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #00008B, #4B0082, #FF1493); Dark Blue → Dark Purple → Dark Pink
+  z-index: -1;
+  animation: highlight 1.5s ease-in-out forwards;
+} */
+
+
+/* 
+@keyframes highlight {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 6px;
+}
+
+.highlight-text::before {
+  content: "";
+  position: absolute;
+  left: -5px; Slightly offset
+  top: -3px;
+  width: 0%;
+  height: 120%; Slightly larger for an organic feel
+  background: linear-gradient(90deg, #461D7C, #872657, #D35400); Deep Purple, Dark Pink, and Orange
+  z-index: -1;
+  animation: highlight 1.8s ease-in-out forwards;
+  
+  Uneven Edges
+  clip-path: polygon(
+      0% 20%, 10% 10%, 30% 0%, 50% 5%, 70% 0%, 85% 10%, 100% 25%, 
+      100% 75%, 85% 90%, 70% 100%, 50% 95%, 30% 100%, 10% 90%, 0% 75%
+  );
+} */
+
+
+
+@keyframes highlight {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  font-weight: bold; /* Match the bold text from the second image */
+}
+
+.highlight-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Positioned as an underline */
+  width: 0%;
+  height: 8px; /* Adjusted thickness of highlight */
+  /* background: linear-gradient(90deg,#3D06F4, #5505F6, #780B59, #CC33A1); */
+  background: linear-gradient(90deg,#202548,#3A6EE8, #E8A017, #E73EC2);
+  /* background: linear-gradient(90deg, #CC33A1, #780B59, #5505F6); */
+  z-index: -1;
+  animation: highlight 1.8s ease-in-out forwards;
+}
+
