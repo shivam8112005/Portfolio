@@ -12,7 +12,7 @@ const Hero = () => {
   const parallaxRef = useRef(null);
 
   return (
-      <Section className="pt-20 md:pt-32 lg:pt-40 -mt-[1.25rem] lg:-mt-[0] min-h-screen">
+      <Section className="pt-20 md:pt-32 lg:pt-40 -mt-[1.25rem] lg:-mt-[0] min-h-screen" id="home">
 
 
 
@@ -20,18 +20,6 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="relative z-1 max-w-full lg:max-w-[50%] text-center lg:text-left mb-12 lg:mb-0">
             <h2 className="h3 mb-4 lg:mb-6">  
-              {/* <span className="inline-block relative">
-                Shivam Shukla{" "}
-                <img
-                  src={curve || "/placeholder.svg"}
-                  className="absolute top-full left-0 w-full xl:-mt-2"
-                  width={624}
-                  height={28}
-                  alt="Curve"
-                />
-              </span> */}
-
-
 
               <span className="highlight-text inline-block relative">
                   Shivam Shukla
@@ -44,14 +32,19 @@ const Hero = () => {
               Coding Simplicity into Complex Problems&nbsp;
             </h2>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link to="/aboutme">
-            <Button white>
-              Get started
-            </Button>
-          </Link>
-              <Button href="https://drive.google.com/file/d/1F_5B8uWZbFuMdnc7NuttIPsaMcbDuhN1/view?usp=drive_link">
-                Resume
-              </Button>
+           
+<a href="https://your-external-link.com" target="_blank" rel="noopener noreferrer"
+  className="relative inline-block px-6 py-3 text-[#d1d1d1] font-bold bg-[#0a0f1f] border border-[#0077ff] rounded-lg overflow-hidden transition-all duration-300 hover:text-[#0077ff] before:absolute before:inset-0 before:bg-[#0077ff]/30 before:blur-md before:opacity-0 hover:before:opacity-100 text-center">
+  Get Started
+</a>
+
+
+<a href="https://drive.google.com/file/d/1F_5B8uWZbFuMdnc7NuttIPsaMcbDuhN1/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+   className="relative px-6 py-3 text-[#0a0f1f] font-bold bg-[#0077ff] border border-[#0077ff] rounded-lg overflow-hidden transition-all duration-300 hover:text-[#d1d1d1] before:absolute before:inset-0 before:bg-[#0077ff]/50 before:blur-md before:opacity-0 hover:before:opacity-100">
+  Resume
+</a>
+
+
             </div>
           </div>
 
@@ -83,18 +76,16 @@ const Hero = () => {
               </div>
               <Gradient />
             </div>
-            {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-              <img
-                src={heroBackground || "/placeholder.svg"}
-                className="w-full"
-                width={1440}
-                height={1800}
-                alt="hero"
-              />
-            </div> */}
           </div>
         </div>
       <BackgroundCircles />
+      {/* <div class="p-6 bg-[#0a0f1f] border border-[#0077ff] rounded-xl shadow-lg text-[#d1d1d1] relative overflow-hidden">
+  <h2 class="text-xl font-bold text-white">Futuristic UI Block</h2>
+  <p class="text-[#d1d1d1]">This div blends perfectly with your dark-themed design.</p>
+
+  <div class="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-xl opacity-50"></div>
+  <div class="absolute bottom-0 right-0 w-32 h-10 bg-[#0077ff] opacity-10 blur-xl"></div>
+</div> */}
       </div>
     
     </Section>

@@ -34,9 +34,9 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <Link to="/" className="block w-[12rem] xl:mr-8">
+        <a href="#home" className="block w-[12rem] xl:mr-8">
           <img src={logo} width={80} className="rounded-xl" height={10} alt="Shivam" />
-        </Link>
+        </a>
 
         <nav
           className={`${
@@ -45,9 +45,9 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
-              <Link
+              <a
                 key={item.id}
-                to={item.path} // Use "to" instead of "href"
+                href={item.url} // Use "to" instead of "href"
                 onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 
                   ${item.onlyMobile ? "lg:hidden" : ""} px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold 
@@ -55,7 +55,7 @@ const Header = () => {
                   lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
 

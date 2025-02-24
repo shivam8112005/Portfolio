@@ -10,7 +10,7 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
-  color-scheme: dark;
+  /* color-scheme: dark; */
 }
 
 * {
@@ -18,9 +18,26 @@
 }
 
 @layer base {
-  body {
+  /* body {
     @apply font-sans bg-n-8 text-n-1 text-base;
+  } */
+
+  body {
+    @apply font-mono bg-[#0a0f1f] text-[#d1d1d1] text-base;
   }
+
+  /* body {
+    @apply font-sans bg-[#1a0b2e] text-[#d1d1d1] text-base;
+  } */
+
+  /* body {
+    @apply font-sans bg-black text-[#5e9cff] text-base;
+    background-image: url('/path-to-stars.png'); Subtle stars
+  } */
+  /* body {
+    @apply font-mono bg-[#111] text-[#00ff00] text-base;
+  } */
+  
 }
 
 .rotate-45 {
@@ -213,3 +230,6 @@
   animation: highlight 1.8s ease-in-out forwards;
 }
 
+.shadow-neon {
+  box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}

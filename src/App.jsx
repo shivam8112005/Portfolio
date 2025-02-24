@@ -13,22 +13,11 @@ const App = () => {
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
       <Header />
-        <Routes>
-          <Route path="/" element={<Hero />}/>
-          <Route path="/aboutme" element={<About />}/>
-          <Route path="/experience" element={<Experience/>}/>
-          <Route path="/projects" element={<Projects />}/>
-          <Route path="/contact" element={<ContactMe/>}/>
-          
-        
-        {/* <Hero />
-        
+          <Hero />
+          <About />
         <Experience/>
-        <Skills/>
-         */}
-        
-      
-        </Routes>
+        <Projects />
+        <ContactMe/>
         <Footer />
       </div>
 
