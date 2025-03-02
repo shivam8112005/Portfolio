@@ -140,7 +140,7 @@ export const experiences = [
     link: "https://www.holopin.io/hacktoberfest2024/userbadge/cm2mry6j332710clcb36ft6et",
     height:45,
     width:45,
-    margin:4,
+    margin:-4,
   },
   {
     id: "1",
@@ -153,7 +153,7 @@ export const experiences = [
     link: "https://drive.google.com/file/d/1-5kjthnzlzUFLK_CKuX7QWNK8WkXdjmB/view?usp=drive_link",
     height:60,
     width:60,
-    margin:0,
+    margin:-13,
 
   },
 ];
