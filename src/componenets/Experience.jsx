@@ -213,7 +213,7 @@ const Experience = () => (
 
 
 
-<div className="md:col-span-2 bg-[#1b1e3b] p-6 rounded-xl shadow-lg">
+<div className="md:col-span-2 bg-[#131632] p-6 rounded-xl shadow-lg">
   <div
     key={item.id}
     style={{
@@ -241,7 +241,7 @@ const Experience = () => (
           style={{ borderRadius: "8px", margin: `${item.margin}px` }}
         />
         <a href={item.link} target="_blank" rel="noopener noreferrer"
-  className="relative inline-block px-6 py-1 text-[#d1d1d1] font-bold bg-[#0a0f1f] border border-[#0077ff] rounded-lg overflow-hidden transition-all duration-300 hover:text-[#0077ff] before:absolute before:inset-0 before:bg-[#0077ff]/30 before:blur-md before:opacity-0 hover:before:opacity-100 text-center">
+  className="relative inline-block px-6 py-1 text-[#d1d1d1] font-bold bg-[#1b1b1c] border border-[#0077ff] rounded-lg overflow-hidden transition-all duration-300 hover:text-[#0077ff] before:absolute before:inset-0 before:bg-[#0077ff]/30 before:blur-md before:opacity-0 hover:before:opacity-100 text-center">
   Wins
 </a>
       </div>
