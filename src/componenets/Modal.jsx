@@ -54,7 +54,7 @@ const Modal = ({ repoStats, onClose }) => {
         <p><strong>🐛 Open Issues:</strong> {repoStats.issues}</p>
         <p><strong>👀 Watchers:</strong> {repoStats.watchers}</p>
         <p><strong>🔤 Language:</strong> {repoStats.language}</p>
-        <p><strong>🔤 Repo Link:</strong> <a href={repoStats.link} target="__blank">Github</a></p>
+        <p><strong>🌐 Repo Link:</strong> <a href={repoStats.link} target="__blank">Github</a></p>
 
         {/* README Section */}
         <h3 className="text-lg font-semibold mt-6">README.md</h3>
