@@ -15,6 +15,8 @@ const Modal = ({ repoStats, onClose }) => {
         // Extract repo owner and name from the GitHub link
         
         const urlParts = repoStats.link.split("/");
+        console.log(repoStats.link);
+        
         const owner = urlParts[3];
         const repo = urlParts[4];
 
@@ -52,6 +54,7 @@ const Modal = ({ repoStats, onClose }) => {
         <p><strong>🐛 Open Issues:</strong> {repoStats.issues}</p>
         <p><strong>👀 Watchers:</strong> {repoStats.watchers}</p>
         <p><strong>🔤 Language:</strong> {repoStats.language}</p>
+        <p><strong>🔤 Repo Link:</strong> <a href={repoStats.link} target="__blank">Github</a></p>
 
         {/* README Section */}
         <h3 className="text-lg font-semibold mt-6">README.md</h3>
