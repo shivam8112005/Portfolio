@@ -13,10 +13,12 @@ const Roadmap = () => {
       <Heading title="About Me" />
 
 
-  <div className="h-screen flex justify-center items-center bg-gray-900">
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-12 lg:px-20 py-10"> 
+  <div className="p-1 flex justify-center items-center bg-gray-900">
+  {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-12 lg:px-20 py-10">  */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:px-6 md:px-12 lg:px-20 py-10">
 
-  <div className="md:col-span-2 bg-[#1b1e3b] p-6 rounded-xl shadow-lg h-56">
+
+  <div className="md:col-span-2 bg-[#1b1e3b] p-6 rounded-xl shadow-lg">
   <div
       key="1"
       style={{

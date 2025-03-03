@@ -62,7 +62,7 @@ const ContactMe = () => {
           className="md:max-w-md lg:max-w-2xl"
           title="Contact Me"
         />
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="max-w-6xl mx-auto flex justify-center gap-8">
                    <div
                       className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${"bg-conic-gradient"}`}
                       
@@ -148,7 +148,7 @@ const ContactMe = () => {
                     </div>
 
         {/* Right: Image or Content Section */}
-        <div className="flex justify-center items-center">
+        {/* <div className="flex justify-center items-center">
           <div className="w-full h-full max-w-lg">
             <img
               src={globe} // Replace with your image URL
@@ -156,7 +156,7 @@ const ContactMe = () => {
               className="rounded-lg shadow-lg object-cover"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
