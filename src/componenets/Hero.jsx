@@ -33,7 +33,7 @@ const Hero = () => {
             </h2>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
            
-<a href="https://your-external-link.com" target="_blank" rel="noopener noreferrer"
+<a href="#about" rel="noopener noreferrer"
   className="relative inline-block px-6 py-3 text-[#d1d1d1] font-bold bg-[#0a0f1f] border border-[#0077ff] rounded-lg overflow-hidden transition-all duration-300 hover:text-[#0077ff] before:absolute before:inset-0 before:bg-[#0077ff]/30 before:blur-md before:opacity-0 hover:before:opacity-100 text-center">
   Get Started
 </a>
